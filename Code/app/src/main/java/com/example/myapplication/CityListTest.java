@@ -83,7 +83,7 @@ public class CityListTest {
         CityList cityList = mockCityList();
         City cityNotInList = new City("Toronto", "Ontario");
 
-        // Try to delete a city that's not in the list - should throw exception
+        // Try to delete a city that's not in the list
         cityList.delete(cityNotInList);
     }
 
