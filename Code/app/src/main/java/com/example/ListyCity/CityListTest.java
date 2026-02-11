@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.ListyCity;
 
 import org.junit.Test;
 import static org.junit.Assert.*;

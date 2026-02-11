@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.ListyCity;
 
 /**
  * This is a class that defines a City.
