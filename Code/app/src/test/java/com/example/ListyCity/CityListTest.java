@@ -28,12 +28,14 @@ public class CityListTest {
         assertTrue(cityList.getCities().contains(city));
     }
 
-    @Test(expected = IllegalArgumentException.class)
+    @Test
     public void testAddException() {
         CityList cityList = mockCityList();
         City city = new City("Yellowknife", "Northwest Territories");
         cityList.add(city);
-        cityList.add(city); // Should throw exception
+        assertThrows(IllegalArgumentException.class, () -> {
+            cityList.add(city);
+        });
     }
 
     @Test
@@ -83,7 +85,7 @@ public class CityListTest {
         CityList cityList = mockCityList();
         City cityNotInList = new City("Toronto", "Ontario");
 
-        // Try to delete a city that's not in the list
+        // Try to delete a city that's not in the list - should throw exception
         cityList.delete(cityNotInList);
     }
 
