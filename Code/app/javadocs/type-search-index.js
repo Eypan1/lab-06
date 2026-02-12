@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.example.ListyCity","l":"City"},{"p":"com.example.ListyCity","l":"CityList"},{"p":"com.example.ListyCity","l":"CityListTest"},{"p":"com.example.ListyCity","l":"MainActivity"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.example.ListyCity","l":"City"},{"p":"com.example.ListyCity","l":"CityList"},{"p":"com.example.ListyCity","l":"MainActivity"}];updateSearchResults();
